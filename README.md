@@ -47,7 +47,7 @@ Follow these steps to add the regex to your Cloudflare Zero Trust DNS firewall:
 7. **Create the Policy**  
    Click **Create policy** to save and activate your new DNS firewall rule.
 
-For more detailed guidance, refer to [Cloudflare DNS Policies documentation](https://developers.cloudflare.com/zero-trust/guides/dns-policies/).
+For more detailed guidance, refer to [Cloudflare DNS Policies documentation](https://developers.cloudflare.com/cloudflare-one/policies/gateway/initial-setup/dns/#3-create-your-first-dns-policy).
 
 ## Customization and Maintenance
   
