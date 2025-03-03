@@ -1,6 +1,9 @@
+# WIP, data cleaner for domain lists to fit for regex match, Cloudflare DNS filtering rules.
+
 import math
 import requests
 
+# Cloudflare DNS rule limiting
 MAX_CHARS = 6500
 
 def custom_escape(s):
@@ -43,7 +46,6 @@ def process_input(input_source):
         line = line.strip()
         if not line or line.startswith("!"):
             continue
-        # Process the line with custom_escape.
         rules.append(custom_escape(line))
     return rules
 
