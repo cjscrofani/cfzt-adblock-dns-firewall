@@ -1,4 +1,4 @@
-# Comprehensive Ad & Tracking Domain Regex for Cloudflare DNS Firewall
+# Ad & Tracking Domain Regex for Cloudflare DNS Firewall
 
 This repository provides a comprehensive regex filter that matches many common domains used for serving advertisements, tracking users, and delivering analytics. Use this regex in your Cloudflare Zero Trust DNS firewall rules to block (or monitor) traffic to these domains and improve your network’s security and privacy.
 
